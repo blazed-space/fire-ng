@@ -4,6 +4,7 @@ import { Page } from "./page";
 
 export interface App {
     loaded: boolean;
+    
     config: {
         app: Config,
         site: Layout,
@@ -21,6 +22,8 @@ export interface App {
     buildMeta(): void;
 
     updatePage(): void;
+
+    setConfig(app: Config, site: Layout): void;
 
     setPage(page: Page): void;
 }

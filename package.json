@@ -1,19 +1,16 @@
 {
   "name": "fire-ng",
-  "version": "1.0.0",
-  "description": "An NPM package used by [Fire for Angular](https://github.com/blazed-space/fire-angular).",
+  "version": "2.0.0",
+  "description": "An NPM package used by the Fire framework for Angular.",
   "main": "index.js",
   "directories": {
     "lib": "lib"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/blazed-space/fire-ng.git"
   },
-  "author": "",
+  "author": "blazed-space",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/blazed-space/fire-ng/issues"

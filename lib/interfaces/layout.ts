@@ -1,10 +1,5 @@
-export interface FooterLink {
-    header: string;
-    body: {
-        text: string;
-        link: string;
-    }[];
-};
+import { FooterLink } from './footer-link';
+
 export interface Layout{
     logo: string;
     nav: {

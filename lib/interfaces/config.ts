@@ -1,7 +1,3 @@
-/*
-    @Name = Config
-    @Desc = Main app configuration interface
-*/
 export interface Config {
     title: string;
     email: string;
