@@ -23,7 +23,5 @@ export interface App {
 
     updatePage(): void;
 
-    setConfig(app: Config, site: Layout): void;
-
     setPage(page: Page): void;
 }
